@@ -1,0 +1,99 @@
+@charset "utf-8";
+/* CSS Document */
+/***********ONLY FOR PRESENTATION ***********/
+body {background: #f2aa9e;
+background: -moz-linear-gradient(left, #f2aa9e 0%, #eb796a 26%, #f2804b 50%, #e68659 72%, #f5756a 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, #f2aa9e), color-stop(26%, #eb796a), color-stop(50%, #f2804b), color-stop(72%, #e68659), color-stop(100%, #f5756a));
+background: -webkit-linear-gradient(left, #f2aa9e 0%, #eb796a 26%, #f2804b 50%, #e68659 72%, #f5756a 100%);
+background: -o-linear-gradient(left, #f2aa9e 0%, #eb796a 26%, #f2804b 50%, #e68659 72%, #f5756a 100%);
+background: -ms-linear-gradient(left, #f2aa9e 0%, #eb796a 26%, #f2804b 50%, #e68659 72%, #f5756a 100%);
+background: linear-gradient(to right, #f2aa9e 0%, #eb796a 26%, #f2804b 50%, #e68659 72%, #f5756a 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2aa9e', endColorstr='#f5756a', GradientType=1 );}
+/***********ONLY FOR PRESENTATION *********/
+
+
+
+/*widgets*/
+#widget-container .material-icons {font-size:100% !important;}
+#widget-container img { width: 100%;}
+#widget-container {
+	width: 100%;
+	max-width: 300px;
+	font-size:90%;
+	margin:auto;
+	background:#fff;
+	font-family: 'Open Sans', sans-serif;
+	color:#5c5146;
+	border-radius:5% 5% 0 0;
+}
+#widget-container .top-art {
+	width:100%;
+}
+#widget-container .top-art img {border-radius: 3% 3% 0 0;}
+#widget-container .content{
+	width:100%;
+}
+#widget-container .content-img {
+	width: 27%;
+	float:left;
+	padding:7% 3%;
+}
+#widget-container .content-info {
+	width:63%;
+	float: left;
+	padding:7% 2%;
+}
+#widget-container .name {
+	font-size:150%;
+	font-weight:bold;
+}
+#widget-container .info {
+	font-size:75%;
+}
+#widget-container .buttons-count {
+	width:100%;
+	background:#f6f1ed;
+	height:30px;
+	clear:both;
+	text-align:center;
+	font-size:105%;
+	font-weight: bold;
+	line-height: 2;
+	border-radius: 0 0 3% 3%;
+}
+#widget-container .view {
+	width:33%;
+	float:left;
+	height:30px;
+	color:#b8aca1;
+	border-right: 1px solid #fff;
+}
+#widget-container #comments{
+	width:33%;
+	float:left;
+	height:30px;
+	cursor:pointer;
+	color:#b8aca1;
+	border-right: 1px solid #fff;
+}
+#widget-container #likes {
+	width:33%;
+	float:left;
+	height:30px;
+	cursor:pointer;
+	color:#b8aca1;
+}
+#widget-container .liked  {color: #e26f4d !important;}
+#widget-container .commentswindow {
+	width:100%;
+	background: #e1e1e1;
+}
+#widget-container .single-comment {
+	margin:0 3% 4%;
+}
+#widget-container .comment-name {
+	font-weight:bold;
+}
+#widget-container .comment-text {
+	border-bottom:1px solid #666;
+}

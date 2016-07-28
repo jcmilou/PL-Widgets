@@ -1,0 +1,12 @@
+{
+"widgetART" : 
+	{
+		"mainimg": "<img src='images/artmain.png' />", 
+		"smallimg": "<img src='images/artsmall.png' />", 
+		"name" : "John Raymons", 
+		"info" : "Your talent amazes! This is awesome. Excited to see the final product.",
+		"views" : 172,
+		"comments" : [{"name": "Fake Name1", "comment": "Lorem ipsum dolor sit amet, at has alii offendit, ne vis labore electram. Iriure animal graecis pro no."},{"name": "Fake Name2", "comment": "Veritus ancillae ei sit, ius tale veniam ei, in duo quod mutat."},{"name": "Fake Name3", "comment": "Libris quaerendum deterruisset ex vel, tale vivendum probatus te sed."},{"name": "Fake Name4", "comment": "Ut pro ornatus constituam. Sonet aliquip principes pri ut, omnis liber dicunt cum ea. "}],
+		"likes" : 210
+	}
+}
